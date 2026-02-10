@@ -1,6 +1,6 @@
 ---
 title: "Unix Terminal 기초 - 터미널 명령어 가이드"
-date: 2026-02-11 10:00:00 +0900
+date: 2026-02-10 10:00:00 +0900
 categories: [Programming, Terminal]
 tags: [unix, terminal, linux, bash, beginner]
 ---
