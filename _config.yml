@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: daeho's blog # the main title
 
-tagline: probie # it will display as the subtitle
+tagline: probie loving expresso # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   espre-zzo's personal blog powered by Jekyll and Chirpy theme.
