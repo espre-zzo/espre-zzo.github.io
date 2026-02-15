@@ -1,8 +1,8 @@
 ---
 title: "RiboCode installation error solving"
 date: 2026-02-15 01:00:00 +0900
-categories: [Bioinformatics, ribosome_profiling]
-tags: [ribocode, ribosome-profiling, pyfasta]
+categories: [Study, ribosome_profiling]
+tags: [ribocode, ribosome_profiling, pyfasta]
 ---
 
 [RiboCode](https://github.com/xryanglab/RiboCode) is a tool that used to analyze ribosome profiling data to find out ORF(Open Reading Frame). This post mainly covers the problem I encountered while installing RiboCode due to version mismatch (python2 legacy).
