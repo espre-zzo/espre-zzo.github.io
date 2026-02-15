@@ -16,14 +16,14 @@ nano _config.yml
 ### 1.1. 언어 및 시간대 (필수는 아님, 사이트를 한국어로 표기하기 위함)
 
 ```yaml
-lang: ko                    # 한국어로 설정
+lang: ko                     # 한국어로 설정
 timezone: Asia/Seoul         # 시간대를 서울로 설정
 ```
 
 ### 1.2. 블로그 제목 및 소개
 
 ```yaml
-title: My Blog               # 사이드바 상단에 표시되는 블로그 이름
+title: My Blog                # 사이드바 상단에 표시되는 블로그 이름
 tagline: Welcome to my blog   # 블로그 이름 아래 소개글
 description: >-               # SEO 및 RSS feed에 사용되는 설명
   My personal blog about programming and technology.
@@ -61,11 +61,11 @@ social:
 
 ## 3. 아바타 (프로필 이미지)
 
-사이드바에 표시되는 프로필 이미지를 설정합니다.
+사이드바에 표시되는 프로필 이미지.
 
 ### 방법 1: 로컬 이미지 사용
 
-이미지를 `assets/img/` 폴더에 넣고 경로를 지정합니다:
+이미지를 `assets/img/` 폴더에 넣고 경로를 지정해줘야 함:
 
 ```yaml
 avatar: /assets/img/avatar.jpg #img 폴더는 없으면 만들면 됨.
@@ -77,14 +77,14 @@ avatar: /assets/img/avatar.jpg #img 폴더는 없으면 만들면 됨.
 avatar: https://github.com/your-username.png
 ```
 
-> 이미지는 정사각형을 권장합니다. 원형으로 잘려서 표시됩니다.
+> 이미지는 원형으로 잘려서 표기되기 때문에, 정사각형을 추천!
 {: .prompt-tip }
 
 ---
 
 ## 4. 테마 모드
 
-라이트/다크 모드를 설정할 수 있습니다:
+라이트/다크 모드 설정:
 
 ```yaml
 theme_mode:   # 비워두면 시스템 설정을 따름 (자동 전환)
@@ -98,7 +98,7 @@ theme_mode:   # 비워두면 시스템 설정을 따름 (자동 전환)
 
 사이드바의 **About** 탭을 클릭하면 나오는 자기소개 페이지.
 
-`_tabs/about.md` 파일을 수정합니다:
+`_tabs/about.md` 파일을 수정해서 자기소개 내용을 변경:
 
 ```markdown
 ---

@@ -17,10 +17,10 @@ Chirpy 테마의 공식 권장 방식인 **Chirpy Starter** 템플릿을 사용 
 git clone https://github.com/cotes2020/chirpy-starter.git username.github.io
 ```
 
-> `username.github.io` 부분의 **username**을 본인의 GitHub 사용자명으로 바꿔주세요. (예: `my-name.github.io`)
+> `username.github.io` 부분의 **username**을 본인의 GitHub 사용자명으로 바꿔야함. (예: `my-name.github.io`)
 {: .prompt-warning }
 
-생성된 폴더로 이동합니다:
+생성된 폴더로 이동:
 
 ```bash
 cd username.github.io
@@ -30,7 +30,7 @@ cd username.github.io
 
 ## 2. 프로젝트 구조
 
-클론한 폴더의 주요 구조는 다음과 같습니다:
+클론한 폴더의 주요 구조:
 
 ```
 username.github.io/
@@ -82,15 +82,15 @@ git remote add origin https://github.com/username/username.github.io.git
 
 ## 5. 로컬 미리보기
 
-블로그를 GitHub에 올리기 전에, 로컬에서 먼저 확인할 수 있습니다:
+블로그를 GitHub에 올리기 전에, 로컬에서 먼저 확인할 수 있음:
 
 ```bash
 bundle exec jekyll serve
 ```
 
-브라우저에서 `http://localhost:4000`에 접속하면 블로그를 미리 볼 수 있습니다.
+브라우저에서 `http://localhost:4000`에 접속하면 블로그를 미리 볼 수 있음 (push 하기 전에 확인하면 좋음)
 
 > 로컬 서버를 종료하려면 터미널에서 `Ctrl + C`를 누르세요.
 {: .prompt-info }
 
-종료 후에도 다시 `bundle exec jekyll serve`를 실행하면 언제든 미리보기를 할 수 있습니다.
+종료 후에도 다시 `bundle exec jekyll serve`를 실행하면 다시 미리보기를 실행할 수 있음.

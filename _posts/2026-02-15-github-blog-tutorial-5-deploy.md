@@ -68,7 +68,7 @@ git push -u origin main
 
 ## 3. GitHub Pages 설정
 
-Push 후 GitHub에서 배포 설정을 해야 합니다.
+Push 후 GitHub에서 배포 설정을 해야 함.
 
 ### 3.1. GitHub Actions 설정
 
@@ -88,7 +88,7 @@ Push 후 GitHub에서 배포 설정을 해야 합니다.
 
 ### 3.3. 배포 확인
 
-빌드가 완료되면 브라우저에서 접속합니다 (push 후 1~2분이면 자동으로 배포됨):
+빌드가 완료되면 브라우저에서 접속하여 확인 (push 후 1~2분이면 자동으로 배포됨):
 
 ```
 https://username.github.io
@@ -122,7 +122,7 @@ gh run view {RUN_ID} --log
 
 ### 브라우저에서 확인
 
-GitHub 저장소의 **Actions** 탭에서 각 빌드의 상태와 상세 로그를 확인할 수 있습니다.
+GitHub 저장소의 **Actions** 탭에서 각 빌드의 상태와 상세 로그 확인 가능.
 
 ---
 

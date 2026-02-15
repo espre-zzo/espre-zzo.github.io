@@ -141,10 +141,10 @@ sudo apt update
 ### 3.7. 인용문
 
 ```markdown
-> 이것은 인용문입니다.
+> 인용문
 ```
 
-> 이것은 인용문입니다.
+> 인용문
 
 ### 3.8. 구분선
 
@@ -156,46 +156,46 @@ sudo apt update
 
 ## 4. Chirpy 전용 문법
 
-Chirpy 테마에서만 사용할 수 있는 특별한 프롬프트 블록입니다:
+Chirpy 테마에서만 사용할 수 있는 특별한 프롬프트 블록:
 
 ### 팁 (Tip)
 
 ```markdown
-> 유용한 팁 내용입니다.
+> 팁
 {: .prompt-tip }
 ```
 
-> 유용한 팁 내용입니다.
+> 팁
 {: .prompt-tip }
 
 ### 정보 (Info)
 
 ```markdown
-> 참고할 정보입니다.
+> 정보
 {: .prompt-info }
 ```
 
-> 참고할 정보입니다.
+> 정보
 {: .prompt-info }
 
 ### 경고 (Warning)
 
 ```markdown
-> 주의가 필요한 내용입니다.
+> 주의
 {: .prompt-warning }
 ```
 
-> 주의가 필요한 내용입니다.
+> 주의
 {: .prompt-warning }
 
 ### 위험 (Danger)
 
 ```markdown
-> 매우 중요한 경고입니다.
+> 경고
 {: .prompt-danger }
 ```
 
-> 매우 중요한 경고입니다.
+> 경고
 {: .prompt-danger }
 
 ---

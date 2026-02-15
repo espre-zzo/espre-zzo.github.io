@@ -15,7 +15,7 @@ Github blog 만들어서 공부하거나 찾아두었던 것들 정리해야지 
 2. **Sign up**
 3. 이메일, 비밀번호, **사용자명(username)**을 입력.
 
-> **사용자명 (username)**은 블로그 주소에 직접 사용됩니다. 예를 들어 username이 `my-name`이면 블로그 주소는 `my-name.github.io`가 됩니다.
+> **사용자명 (username)**은 블로그 주소에 직접 사용됨. 예를 들어 username이 `my-name`이면 블로그 주소는 `my-name.github.io`가 됨.
 {: .prompt-warning }
 
 ### 저장소(Repository) 생성
@@ -58,7 +58,7 @@ brew install rbenv ruby-build
 
 ### 3.2. shell 설정에 rbenv 추가
 
-사용하는 shell에 따라 설정 파일이 다릅니다:
+사용하는 shell에 따라 설정 파일이 다름:
 
 ```bash
 # zsh 사용자 (macOS 기본)
@@ -131,7 +131,7 @@ brew install git
 
 ### Git 사용자 정보 설정
 
-커밋에 표시될 이름과 이메일을 설정합니다:
+커밋에 표시될 이름과 이메일을 설정:
 
 ```bash
 git config --global user.name "Your Name"
@@ -142,7 +142,7 @@ git config --global user.email "your@email.com"
 
 ## 6. GitHub CLI (gh) 설치
 
-GitHub CLI를 사용하면 터미널에서 GitHub 인증, 저장소 관리 등을 편리하게 할 수 있습니다.
+GitHub CLI를 사용하면 터미널에서 GitHub 인증, 저장소 관리 등을 편리하게 할 수 있음 (추천).
 
 ### 6.1. 설치
 
