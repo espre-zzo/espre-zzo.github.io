@@ -11,13 +11,15 @@ tags: [MiPepid, sORF]
 
 [MiPepid](https://github.com/MindAI/MiPepid)(**Mi**cro**pep**tide **id**entification tool)는 sORF(short Open Reading Frame)의 코딩 가능성을 머신러닝으로 예측하는 도구이다.
 
+> Mengmeng Zhu, Michael Gribskov. [MiPepid: Micropeptide identification tool using machine learning.](https://link.springer.com/article/10.1186/s12859-019-3033-9) BMC Bioinformatics 20, 559 (2019)
+{: .prompt-info }
+
 sORF는 stop codon을 포함하여 303bp 이하의 짧은 ORF로, 번역 시 100개 아미노산 이하의 micropeptide를 인코딩한다. Micropeptide는 크기가 작아 역할이 규명되지 않았던 과거에 비해, 최근에는 생물학적인 역할이 암 등에서 활발하게 연구되고 있다.
 
 MiPepid는 입력으로 DNA fasta 파일을 받아 3개의 translation frame에서 모든 sORF를 찾고, 각 sORF에 대해 coding/noncoding 여부와 그 확률을 예측해준다.
 
 > RNA나 단백질 서열이 아닌 순수한 DNA 서열로 구성된 FASTA 파일이어야 input으로 제대로 작동한다. (ATCG 4가지 염기로만 구성되어야 함)
-{: .prompt-tip }
-> Mengmeng Zhu, Michael Gribskov. MiPepid: Micropeptide identification tool using machine learning. *BMC Bioinformatics* 20, 559 (2019)
+{: .prompt-warning }
 
 ## 설치
 
