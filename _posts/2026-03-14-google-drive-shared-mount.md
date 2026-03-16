@@ -7,7 +7,7 @@ tags: [ubuntu, rclone, google-drive, shared-drive]
 
 ## Overview
 
- Previous method only covered "My Drive" which does not show me **Google Shared Drives** (formerly Team Drives). This is a follow-up to [Mounting Google Drive on Ubuntu Server with rclone](/posts/mounting-google-drive-on-ubuntu-server-with-rclone/).
+ Previous method only covered "My Drive" which does not show me **Google Shared Drives** (formerly Team Drives). This is a follow-up to [Mounting Google Drive on Ubuntu Server with rclone]({% post_url 2026-03-13-google-drive-rclone-mount %}).
 
 ## Prerequisites
 
