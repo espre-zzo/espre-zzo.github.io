@@ -1,5 +1,5 @@
 ---
-title: "2026-03-14 Mounting Google Shared Drives on Ubuntu Server with rclone"
+title: "Mounting Google Shared Drives on Ubuntu Server with rclone"
 date: 2026-03-14
 categories: [Programming, Ubuntu Server]
 tags: [ubuntu, rclone, google-drive, shared-drive]
